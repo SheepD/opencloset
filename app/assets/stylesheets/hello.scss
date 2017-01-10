@@ -1,0 +1,28 @@
+.hello-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.banner-section {
+  width: 75%;
+  height: 400px;
+}
+
+.about-section {
+  width: 55%;
+  height: 400px;
+}
+
+.how-section {
+  height: 400px;
+  h1, h3, p {
+    text-align: center;
+  }
+}
+
+.call-section {
+  height: 400px;
+}
