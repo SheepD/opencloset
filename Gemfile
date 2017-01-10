@@ -12,7 +12,6 @@ gem 'rails', '~> 5.0.1'
 
 gem 'coffee-rails'
 gem 'jquery-rails'
-gem 'npm-pipeline-rails'
 gem 'sass-rails', '~> 5.0'
 gem 'slim-rails'
 gem 'uglifier', '>= 1.3.0'
