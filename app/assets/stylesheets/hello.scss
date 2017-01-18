@@ -1,4 +1,18 @@
-.hello-section {
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.hello-nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  position: fixed;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,22 +21,61 @@
 }
 
 .banner-section {
-  width: 75%;
-  height: 400px;
+  width: 100%;
+  min-height: 100vh;
+  flex: 1;
+  background-image: url('https://s3-ap-southeast-1.amazonaws.com/opencloset/public/banner.jpeg');
+  background-size: cover;
+
+  .banner-text-container {
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 8rem;
+    color: #ffffff;
+    width: 75%;
+    margin: auto;
+
+    .section-header {
+      margin-bottom: 3rem;
+      text-shadow: #000 0px 0px 1px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .section-subtext {
+      text-shadow: #000 0px 0px 1px;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
 }
 
 .about-section {
-  width: 55%;
-  height: 400px;
+  padding: 8rem 0rem;
+  background-color: #228b22;
+
+  .about-text-container {
+    width: 65%;
+    margin: auto;
+    color: #ffffff;
+
+    .section-header {
+      margin-bottom: 3rem;
+    }
+
+    .section-subtext {
+      font-weight: 200;
+    }
+  }
 }
 
 .how-section {
-  height: 400px;
+  padding: 8rem 0rem;
   h1, h3, p {
     text-align: center;
   }
 }
 
 .call-section {
-  height: 400px;
+  padding: 8rem 0rem;
+  background-color: #228b22;
+  color: #ffffff;
+  width: 100%;
 }
