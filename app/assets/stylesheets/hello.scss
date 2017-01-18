@@ -35,20 +35,21 @@ body {
     margin: auto;
 
     .section-header {
-      margin-bottom: 3rem;
       text-shadow: #000 0px 0px 1px;
       -webkit-font-smoothing: antialiased;
     }
 
     .section-subtext {
+      font-size: 24px;
       text-shadow: #000 0px 0px 1px;
       -webkit-font-smoothing: antialiased;
+      font-style: italic;
     }
   }
 }
 
 .about-section {
-  padding: 8rem 0rem;
+  padding: 12rem 0rem;
   background-color: #228b22;
 
   .about-text-container {
@@ -62,6 +63,7 @@ body {
 
     .section-subtext {
       font-weight: 200;
+      font-size: 24px;
     }
   }
 }
